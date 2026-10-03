@@ -1,0 +1,267 @@
+# Indian Cybersecurity & CERT-In Incident Analysis
+
+## 📌 Project Overview
+
+An end-to-end data analytics project analyzing cybersecurity incidents reported in 
+India using **Excel, SQL, Python, and Power BI**.
+
+The project follows a complete analytics workflow, from data inspection and validation 
+to SQL analysis, Python-based exploratory analysis, and interactive Power BI dashboard 
+development.
+
+---
+
+## 🎯 Project Objectives
+
+* Analyze cybersecurity incident trends from **2020 to 2024**
+* Identify the years with the highest and lowest incident volumes
+* Analyze the distribution of cybersecurity incident types
+* Calculate year-over-year incident growth
+* Identify the most significant incident categories
+* Validate reported totals across different analytical stages
+* Present findings through an interactive Power BI dashboard
+
+---
+
+## 📊 Dataset & Source
+
+The analysis uses cybersecurity incident data reported by **CERT-In (Indian Computer 
+Emergency Response Team)**.
+
+**Source:** CERT-In Annual Report 2024
+
+The dataset contains:
+
+### Yearly Incident Data
+
+* Year
+* Number of Incidents
+
+### Incident-Type Data
+
+* Incident Type
+* Number of Incidents
+
+The yearly dataset covers **2020–2024**, while the incident-type analysis represents 
+the incident categories reported for **2024**.
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Microsoft Excel** – Data inspection, validation, sorting and initial analysis
+* **MySQL** – Data querying and analytical calculations
+* **Python** – Exploratory data analysis
+* **Pandas** – Data manipulation and analysis
+* **Matplotlib** – Data visualization
+* **Power BI** – Interactive dashboard development
+* **GitHub** – Project documentation and version control
+
+---
+
+## 🔄 Project Workflow
+
+**Raw Data → Excel → SQL → Python → Power BI → Insights**
+
+### 1. Excel
+
+The source data was inspected and validated in Excel.
+
+Activities included:
+
+* Checking column names and data structure
+* Verifying year values and incident counts
+* Checking for missing values
+* Checking for duplicate records
+* Validating totals against the source report
+
+No unnecessary transformations were applied because the source tables were already 
+structured for analysis.
+
+---
+
+### 2. SQL Analysis
+
+The data was imported into MySQL and analyzed using SQL.
+
+Key SQL techniques used:
+
+* `SELECT`
+* `SUM()`
+* `AVG()`
+* `COUNT()`
+* `GROUP BY`
+* `ORDER BY`
+* `HAVING`
+* `LIMIT`
+* `LAG()`
+* Window Functions
+* Common Table Expressions (CTEs)
+* Percentage calculations
+* Cumulative percentage analysis
+* Cross-table validation
+
+The analysis examined yearly trends, year-over-year growth, incident-type rankings, 
+percentage contributions, cumulative contribution, and overall growth.
+
+---
+
+### 3. Python Analysis
+
+Python was used for exploratory analysis and visualization.
+
+Key techniques included:
+
+* Pandas DataFrames
+* Data inspection
+* Descriptive statistics
+* Missing-value checks
+* Duplicate checks
+* Percentage calculations
+* Sorting and ranking
+* Year-over-year growth analysis
+* Average comparison
+* Matplotlib visualizations
+
+### Visualizations Created
+
+* Indian Cybersecurity Incidents: 2020–2024
+* Cybersecurity Incidents by Incident Type
+* Year-over-Year Cybersecurity Incident Growth
+* Incident Type Contribution to Total Incidents
+* Annual Incidents vs 5-Year Average
+* Top 3 Cybersecurity Incident Types
+* Cumulative Contribution of Incident Types
+
+---
+
+## 📈 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to present the major findings from the 
+analysis.
+
+### Dashboard Components
+
+**KPI Cards**
+
+* Total Incidents
+* Average Annual Incidents
+* Highest Year
+* Highest Incident Type
+* 2024 Incidents
+
+**Visualizations**
+
+* Yearly incident trend
+* Incident-type distribution
+* Year-over-year growth
+
+**Filters**
+
+* Year
+* Incident Type
+
+The dashboard allows users to explore cybersecurity incident patterns interactively.
+
+---
+
+## 🔍 Key Insights
+
+* CERT-In handled **7,586,751 cybersecurity incidents** across the 2020–2024 period.
+* Annual incidents increased from **1,158,208 in 2020 to 2,041,360 in 2024**, 
+representing an overall increase of **76.25%**.
+* **2024 recorded the highest annual incident volume**, with **2,041,360 incidents**.
+* The highest year-over-year growth occurred in **2024**, at **28.15%**.
+* **2022** recorded a slight year-over-year decline of **0.81%**.
+* In 2024, **Unauthorized Network Scanning / Probing** accounted for approximately 
+**78.91%** of reported incidents.
+* **Vulnerable Services** represented approximately **14.45%**.
+* **Virus / Malicious Code** represented approximately **5.87%**.
+* The two largest incident categories together represented approximately **93.35%** of 
+the 2024 incident total.
+* The average annual incident volume for 2020–2024 was approximately **1.52 million 
+incidents**.
+* **2023 and 2024** recorded incident volumes above the five-year average.
+
+---
+
+## 💡 Analytical Outcome
+
+The analysis demonstrates a substantial increase in cybersecurity incidents handled by 
+CERT-In during the 2020–2024 period.
+
+The incident-type analysis also shows that the reported 2024 incidents were highly 
+concentrated in a small number of categories, particularly Unauthorized Network Scanning / Probing and Vulnerable Services.
+
+The project demonstrates the ability to take structured source data through a complete 
+analytics workflow and convert it into **validated analysis, visual insights, and an 
+interactive business-style dashboard**.
+
+---
+
+## 🧠 Skills Demonstrated
+
+### Technical Skills
+
+* Excel
+* SQL / MySQL
+* Python
+* Pandas
+* Matplotlib
+* Power BI
+* Data Validation
+* Exploratory Data Analysis
+* Data Visualization
+* KPI Development
+* Analytical Querying
+* Window Functions
+* CTEs
+* Dashboard Development
+
+### Analytical Skills
+
+* Trend Analysis
+* Year-over-Year Analysis
+* Category Analysis
+* Percentage Contribution Analysis
+* Data Validation
+* Pattern Identification
+* Insight Generation
+
+---
+
+## 📁 Project Structure
+
+```text
+Indian-Cybersecurity-CERT-In-Analysis/
+│
+├── README.md
+│
+├── Data/
+│   ├── yearly_incidents.csv
+│   └── incident_types.csv
+│
+├── Excel/
+│   └── Cybersecurity_Incident_Analysis.xlsx
+│
+├── SQL/
+│   └── Cybersecurity_Incident_Analysis.sql
+│
+├── Python/
+│   └── Indian_Cybersecurity_CERT-In_Incident_Analysis.ipynb
+│
+└── PowerBI/
+    └── Indian_Cybersecurity_CERT-In_Incident_Analysis.pbix
+```
+
+---
+
+## 📌 Conclusion
+
+This project showcases an end-to-end data analytics workflow using **Excel, SQL, 
+Python, and Power BI**, demonstrating practical skills in data validation, querying, 
+exploratory analysis, visualization, and dashboard development.
+
+The project converts cybersecurity incident data into structured analytical findings 
+that can be explored through both Python visualizations and an interactive Power BI 
+dashboard.
